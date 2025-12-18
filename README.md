@@ -26,3 +26,5 @@ Fungsi handle_playlist_skip & check_song_end: Logika yang mendeteksi akhir antre
 
 Loop Logic in audiogui.py:
 handle_playlist_skip (Mode Loop ON): Saat mencapai tail (akhir antrean), pointer DLL dipaksa lompat kembali ke head (awal antrean). Ini mengubah perilaku Linear Queue menjadi Circular Queue secara logis.
+
+test_dbconnection.py untuk mengecek apakah database yang dipanggl di data_manager.py sudah terhubung ke database atau tidak.
